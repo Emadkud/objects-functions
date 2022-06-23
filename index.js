@@ -107,21 +107,25 @@
 
 
 
-
-
-
-
-
-
 // ## 05 - Add Up
 
 // - Créez une fonction `addUp` qui reçoit un paramètre `num`
 // - À l'aide d'une boucle, ajouter les chiffres de 1 à `num`
 // - Appelez votre fonction avec le chiffre 12 et vérifiez que vous obtenez 78
+ 
 
+// const addUp = (num) => {
+    
+//    let  result = 0
+//  for (let i = 1; i <= num ; i++) {
+    
+//  result += i
 
+// }
+//  console.log(result)
+// }
 
-
+// addUp(7)
 
 
 
@@ -131,6 +135,38 @@
 // - Créez une fonction `format` qui reçoit un paramètre `num` qui représente des secondes
 // - Faites en sorte que la fonction retourne un format `heures : minutes : secondes`
 // - Appelez votre fonction avec l'argument `3700` et vérifiez que vous obtenez `1:1:40`
+
+// const format = (num) => {
+
+
+//  let hour = num / 3600
+
+//  hour = Math.floor(hour)
+
+//   let rest =  num % 3600
+
+//   let minutes = rest / 60
+
+//   minutes= Math.floor(minutes)
+
+//   let seconde =  rest % 60
+
+//   console.log (`${hour} : ${minutes} : ${seconde}`)
+
+// }
+
+// format(3700)
+
+
+
+
+
+
+
+
+ 
+
+
 
 // ## 07 - Password generation
 
